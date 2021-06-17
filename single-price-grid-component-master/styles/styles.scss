@@ -1,0 +1,158 @@
+// Colors:
+$cyan: hsl(179, 62%, 43%);
+$green: hsl(71, 73%, 54%);
+$grey: hsl(204, 43%, 93%);
+$greyish: #a5a8b1;
+$lightgrey: #e6eff6;
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: $lightgrey;
+  h3,
+  h4,
+  p {
+    margin: 30px 25px 25px 25px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vh;
+      margin: 30px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14);
+      box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14);
+      overflow: hidden;
+      .card-cm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: white;
+        width: 100%;
+        h3 {
+          color: $cyan;
+        }
+        h4 {
+          color: $green;
+          margin: 0px 25px 0px 25px;
+        }
+        p {
+          color: $greyish;
+          font-size: 14px;
+          line-height: 27px;
+          margin: 15px 25px 30px 25px;
+        }
+      }
+      .card-bottom {
+        width: 100%;
+        .card-bottom-sub {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: left;
+          background-color: $cyan;
+          padding: 20px;
+          color: $lightgrey;
+          h3 {
+            margin: 10px 25px 20px 25px;
+          }
+          h4 {
+            font-size: 35px;
+            margin: 0px 0px 0px 25px;
+            span {
+              color: $grey;
+              font-size: 15px;
+              font-weight: 400;
+              letter-spacing: 1px;
+              vertical-align: middle;
+              opacity: 0.6;
+            }
+          }
+          p {
+            margin: 10px 0px 30px 25px;
+          }
+          button {
+            background-color: $green;
+            border: none;
+            color: white;
+            padding: 16px 105px;
+            text-align: start;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            -webkit-box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14);
+            box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14);
+            border-radius: 8px;
+            align-self: center;
+            margin: 0px 0px 8px 0px;
+            &:hover {
+              opacity: 0.9;
+            }
+          }
+        }
+        .card-bottom-us {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: left;
+          background-color: $cyan;
+          padding: 20px;
+          color: $lightgrey;
+          opacity: 0.8;
+          h3 {
+            margin: 10px 0px 0px 25px;
+          }
+          ul {
+            margin: 25px 0px 8px 25px;
+            padding: 0;
+            li {
+              color: $grey;
+              list-style: none;
+              font-size: 15px;
+              line-height: 22px;
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: $cyan;
+    a {
+      color: $cyan;
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    .flex {
+      .card {
+        .card-bottom {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+        }
+
+        .card-bottom-sub {
+          grid-area: 1 / 1 / 2 / 2;
+        }
+        .card-bottom-us {
+          grid-area: 1 / 2 / 2 / 3;
+        }
+      }
+    }
+  }
+}

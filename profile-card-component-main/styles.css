@@ -1,0 +1,115 @@
+body {
+  background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+h1,
+h3 {
+  font-size: 18px;
+}
+
+p,
+span {
+  color: #969696;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.246);
+          box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.246);
+}
+
+.card-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -60px;
+}
+
+.card-profile-img {
+  border-radius: 50%;
+  border-color: white;
+  border-width: 7px;
+  border-style: solid;
+  background-color: white;
+}
+
+.card-profile-age {
+  font-weight: 400;
+}
+
+.card-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center; */
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid rgba(150, 150, 150, 0.39);
+}
+
+.card-social-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 30px 0px 0px;
+}
+
+.card-social-info p {
+  letter-spacing: 2px;
+  margin: 0px 0px 25px 0px;
+  font-size: 12px;
+}
+
+.card-social-info h3 {
+  margin: 20px 0px 10px 0px;
+}
+
+.card-profile-city {
+  margin: 0px 0px 25px 0px;
+}
+
+.card-background-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=styles.css.map */
