@@ -20,6 +20,7 @@ body .flex {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100vh;
 }
 
 body .flex .card {
@@ -102,12 +103,12 @@ body .flex .card .card-bottom .card-bottom-sub {
 }
 
 body .flex .card .card-bottom .card-bottom-sub h3 {
-  margin: 10px 25px 20px 25px;
+  margin: 10px 10px 20px 5px;
 }
 
 body .flex .card .card-bottom .card-bottom-sub h4 {
   font-size: 35px;
-  margin: 0px 0px 0px 25px;
+  margin: 0px 0px 0px 5px;
 }
 
 body .flex .card .card-bottom .card-bottom-sub h4 span {
@@ -120,7 +121,7 @@ body .flex .card .card-bottom .card-bottom-sub h4 span {
 }
 
 body .flex .card .card-bottom .card-bottom-sub p {
-  margin: 10px 0px 30px 25px;
+  margin: 10px 0px 30px 5px;
 }
 
 body .flex .card .card-bottom .card-bottom-sub button {
@@ -166,7 +167,7 @@ body .flex .card .card-bottom .card-bottom-us {
 }
 
 body .flex .card .card-bottom .card-bottom-us h3 {
-  margin: 10px 0px 0px 25px;
+  margin: 10px 0px 0px 5px;
 }
 
 body .flex .card .card-bottom .card-bottom-us ul {

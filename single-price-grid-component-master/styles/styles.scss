@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     .card {
       display: flex;
       flex-direction: column;
@@ -61,11 +62,11 @@ body {
           padding: 20px;
           color: $lightgrey;
           h3 {
-            margin: 10px 25px 20px 25px;
+            margin: 10px 10px 20px 5px;
           }
           h4 {
             font-size: 35px;
-            margin: 0px 0px 0px 25px;
+            margin: 0px 0px 0px 5px;
             span {
               color: $grey;
               font-size: 15px;
@@ -76,7 +77,7 @@ body {
             }
           }
           p {
-            margin: 10px 0px 30px 25px;
+            margin: 10px 0px 30px 5px;
           }
           button {
             background-color: $green;
@@ -107,7 +108,7 @@ body {
           color: $lightgrey;
           opacity: 0.8;
           h3 {
-            margin: 10px 0px 0px 25px;
+            margin: 10px 0px 0px 5px;
           }
           ul {
             margin: 25px 0px 8px 25px;
