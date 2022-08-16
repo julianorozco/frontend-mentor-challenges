@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacegrotesk/v12/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXskPMA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+.credit-card {
+  background-image: url(../images/bg-main-mobile.png);
+  background-size: cover;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+}
+.credit-card-back {
+  background-image: url(../images/bg-card-back.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 320px;
+  width: 280px;
+  margin: 20px 0px 0px 80px;
+  display: flex;
+}
+.credit-card-back-number {
+  color: #fff;
+  font-size: 12px;
+  margin: 10px 10px 0px 225px;
+}
+.credit-card-front {
+  background-image: url(../images/bg-card-front.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 320px;
+  width: 280px;
+  margin: -70px 0px -40px 20px;
+  overflow: visible;
+}
+.card-front-number {
+  color: #fff;
+  font-size: 20px;
+}
+.card-front-detail {
+  color: #fff;
+  font-size: 12px;
+}
+.container {
+  margin: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+form {
+  padding: 0px 25px 0px 25px;
+  margin-top: 80px;
+  overflow: visible;
+  text-align: center;
+}
